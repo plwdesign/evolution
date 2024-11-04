@@ -37,7 +37,7 @@ LOG:
     - DEBUG
     - INFO
     - LOG
-    - VERBOSE
+    #VERBOSE
     - DARK
     - WEBHOOKS
   COLOR: true
@@ -52,7 +52,7 @@ DEL_TEMP_INSTANCES: true # Delete instances with status closed on start
 # Seesion Files Providers
 # Provider responsible for managing credentials files and WhatsApp sessions.
 PROVIDER:
-  ENABLED: true
+  ENABLED: false
   HOST: 127.0.0.1
   PORT: 5656
   PREFIX: evolution
